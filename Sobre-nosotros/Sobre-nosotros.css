@@ -1,0 +1,40 @@
+*{
+	margin: 0;
+}
+
+body {
+background:#01001a;
+} 
+
+.Subtitulo {
+	color: #fff;
+		font-family: 'Rubik Mono One', sans-serif;
+	font-size: 20px;
+	padding-left: 525px;
+	border: #00ccff 5px solid;
+}
+.Subtitulo:hover {
+text-shadow:  0 0 5px #00ff, 0 0 10px #00ff, 0 0 15px #00ff, 0 0 20px #00ff, 0 0 25px #ff00, 0 0 30px red;;
+ }
+
+.Contenedor {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+ }
+ .Redes {
+	height: auto;
+	width: auto;
+	background-color: #00ccff; 
+	font-family: 'Rubik Mono One', sans-serif;
+	border: #01001a 5px dashed;
+	border-radius: 20px;
+	color: #fff;
+	text-align: center;
+	margin: 10px;
+
+}
+.Logo {
+	  max-width: 100px; /* La imagen se ajustará automáticamente al tamaño del contenedor sin exceder su ancho original */
+  height: auto; /* Esto asegura que la altura se ajuste proporcionalmente para mantener la relación de aspecto */
+}

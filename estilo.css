@@ -1,0 +1,140 @@
+* {
+	margin: 0;
+	
+}
+
+body {
+background:#01001a;
+background-size: cover;
+} 
+
+.nav__responsive-ul{
+		display: none;
+	}
+	.nav {
+     background-color:#01001a ;
+     border: #00ccff 5px solid; 
+     padding-left: 350px;
+	}
+	.nav__li {
+		display: inline-block;
+		padding: 12px;
+		color: #fff;
+		
+	}
+	.nav__li:hover >a {
+		color: #00ccff;
+	}
+	.nav__li:hover  {
+		color: #00ccff;
+	}
+
+	.nav__li a {
+		color:#fff;
+		text-decoration: none;
+	}
+	.nav__li i {
+		box-sizing: border-box;
+		text-align: right;
+		margin-right:5px ;
+
+	}
+	.nav__responsive-button-container {
+ 	position: absolute;
+ 	width: 100%;
+ 	font-size: 25px;
+ 	background-color: #00fbff;
+  	margin-top: -64px;
+  	z-index: 100;
+ }
+ .nav__responsive-button {
+ 	 	padding: 6px 20px;
+	
+	text-align: right;
+	width: 100%;
+
+ }
+
+.Titulo-principal {
+	color:#00ccff ;
+font-family: 'Pacifico', cursive;
+ font-weight: 80px;
+ font-size: 50px;
+ transition:0s;
+ animation: desplazarDerecha 5s linear infinite;
+}
+
+.Titulo-principal:hover {
+text-shadow:  0 0 5px #00ff, 0 0 10px #00ff, 0 0 15px #00ff, 0 0 20px #00ff, 0 0 25px #ff00, 0 0 30px red;
+
+}
+
+
+/* Definimos la animación */
+@keyframes desplazarDerecha {
+  0% {
+    transform: translateX(0); /* La posición inicial del elemento */
+  }
+  100% {
+    transform: translateX(100%); /* La posición final del elemento (ajusta según tus necesidades) */
+  }
+}
+
+
+
+.Subtitulo {
+	color: #ffffff;
+	font-family: 'Rubik Mono One', sans-serif;
+	font-size: 20px;
+	padding-left: 200px;
+	border: #00ccff 5px solid;
+}
+
+.Subtitulo:hover {
+	text-shadow:  0 0 5px #00ff, 0 0 10px #00ff, 0 0 15px #00ff, 0 0 20px #00ff, 0 0 25px #ff00, 0 0 30px red;;
+}
+
+
+
+
+.Contenedor {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+
+
+}
+
+.Marcas {
+	height: auto;
+	width: auto;
+	background-color: #00ccff; 
+	font-family: 'Rubik Mono One', sans-serif;
+	border: #01001a 5px dashed;
+	border-radius: 20px;
+	color: #fff;
+	text-align: center;
+	margin: 10px;
+
+}
+
+.Marcas:hover {
+text-shadow:  0 0 5px #01001a, 0 0 10px #01001a, 0 0 15px #01001a, 0 0 20px #01001a, 0 0 25px #01001a, 0 0 30px #00ccff;
+
+}
+
+.Creador {
+	color: #ffffff;
+	font-family: 'Rubik Mono One', sans-serif ;
+	font-size: 20px;
+	padding-left: 400px;
+	border: #00ccff 5px solid;
+}
+.Logo {
+	  max-width: 100px; /* La imagen se ajustará automáticamente al tamaño del contenedor sin exceder su ancho original */
+  height: auto; /* Esto asegura que la altura se ajuste proporcionalmente para mantener la relación de aspecto */
+}
+
+
+
+

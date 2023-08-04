@@ -1,0 +1,135 @@
+*{
+	margin: 0;
+}
+
+body {
+background:#01001a;
+} 
+
+.nav__responsive-ul{
+		display: none;
+	}
+	.nav {
+     background-color:#01001a ;
+     border: #00ccff 5px solid; 
+     padding-left: 350px;
+	}
+	.nav__li {
+		display: inline-block;
+		padding: 12px;
+		color: #fff;
+		
+	}
+	.nav__li:hover >a {
+		color: #00ccff;
+	}
+	.nav__li:hover  {
+		color: #00ccff;
+	}
+
+	.nav__li a {
+		color:#fff;
+		text-decoration: none;
+	}
+	.nav__li i {
+		box-sizing: border-box;
+		text-align: right;
+		margin-right:5px ;
+
+	}
+	.nav__responsive-button-container {
+ 	position: absolute;
+ 	width: 100%;
+ 	font-size: 25px;
+ 	background-color: #00fbff;
+  	margin-top: -64px;
+  	z-index: 100;
+ }
+ .nav__responsive-button {
+ 	 	padding: 6px 20px;
+	
+	text-align: right;
+	width: 100%;
+
+ }
+
+.Titulo-principal {
+	color:#00ccff ;
+font-family: 'Pacifico', cursive;
+ font-weight: 80px;
+ font-size: 50px;
+ transition:0s;
+ animation: desplazarDerecha 5s linear infinite;
+}
+.Titulo-principal:hover {
+text-shadow:  0 0 5px #00ff, 0 0 10px #00ff, 0 0 15px #00ff, 0 0 20px #00ff, 0 0 25px #ff00, 0 0 30px red;
+
+}
+
+/* Definimos la animación */
+@keyframes desplazarDerecha {
+  0% {
+    transform: translateX(0); /* La posición inicial del elemento */
+  }
+  100% {
+    transform: translateX(100%); /* La posición final del elemento (ajusta según tus necesidades) */
+  }
+ }
+
+.Subtitulo {
+	color: #ffffff;
+	font-family: 'Rubik Mono One', sans-serif;
+	font-size: 20px;
+	padding-left: 600px;
+	border: #00ccff 5px solid;
+}
+
+.Subtitulo:hover {
+	text-shadow:  0 0 5px #00ff, 0 0 10px #00ff, 0 0 15px #00ff, 0 0 20px #00ff, 0 0 25px #ff00, 0 0 30px red;;
+}
+
+
+
+
+/* Estilos para el menú desplegable */
+nav .dropdown {
+  position: relative;
+  	font-family: 'Rubik Mono One', sans-serif;
+  	color: #ffffff;
+
+}
+
+nav .dropdown .submenu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #ffffff;
+  padding: 10px;
+
+}
+
+nav .dropdown:hover .submenu {
+  display: block;
+  color: #ffffff;
+}
+
+.M {
+	color: #fff;
+}
+
+
+
+
+
+
+
+.Creador {
+	color: #ffffff;
+	font-family: 'Rubik Mono One', sans-serif;
+	font-size: 20px;
+	padding-left: 400px;
+	border: #00ccff 5px solid;
+}
+
+
